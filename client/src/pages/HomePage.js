@@ -107,10 +107,10 @@ const HomePage = () => {
     }
   };
   return (
-    <Layout title={"Book Online from anywhere"}>
+    <Layout title={"Book wedding bands.dholi,ghodi DJ"}>
       {/* banner image */}
       <img
-        src="/images/banner.jpeg"
+        src="/images/banner1.jpg"
         className="banner-img"
         alt="bannerimage"
         width={"100%"}

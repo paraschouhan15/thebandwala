@@ -3,7 +3,8 @@ import Footer from "./Footer";
 import Header from "./Header";
 import { Helmet } from "react-helmet";
 import { Toaster } from "react-hot-toast"
-import Ex from "../Ex.js"
+import Bottom from "./Bottom";
+
 
 
 const Layout = ({ children, title, description, keywords, author }) => {
@@ -17,6 +18,7 @@ const Layout = ({ children, title, description, keywords, author }) => {
         <title>{title}</title>
       </Helmet>
       <Header />
+  
       <main style={{ minHeight: "70px" }}>
         <Toaster />
 
@@ -24,7 +26,7 @@ const Layout = ({ children, title, description, keywords, author }) => {
       </main>
     
       <Footer />
-      <Ex/>
+      <Bottom/>
      
     </div>
   );
